@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+header{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+main{
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, gold, white,gold,white,gold);
+}
+.cooking{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 1200px;
+}
+.e{
+position:relative;
+    margin: 1px;
+    }
+    iframe{
+        border: double blue;
+
+    }
+    iframe:hover{
+        height: 270px;
+        width: 370px;
+    }
